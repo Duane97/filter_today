@@ -8,14 +8,14 @@
     "version": "11.0.1.0.0",
     "author": "Duane ",
     "website": "https://github.com/Duane97/filter_today",
-    'category': 'Extra Tools',
-    'depends': ['base', 'web'],
-    'data': [
+    "category": "Extra Tools",
+    "depends": ["base", "web"],
+    "data": [
         # 'security/ir.model.access.csv',
-        'views/header.xml',
+        "views/header.xml",
     ],
 
-    'qweb': [
+    "qweb": [
         "views/widget/input.xml"
     ],
     "images": ['static/description/icon.png'],
